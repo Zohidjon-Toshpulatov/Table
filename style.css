@@ -4,6 +4,10 @@
 }
 .table-box {
   margin: 70px auto;
+  width: 50%;
+  height: 420px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .table-health-hazards h2 {
@@ -13,7 +17,7 @@
 }
 .table-row {
   display: table;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   font-family: sans-serif;
 
@@ -59,55 +63,50 @@
   font-weight: bold;
 }
 
-
-.table-cell-name  span{
-    font-size: 10px;
-    padding: 0;
+.table-cell-name span {
+  font-size: 10px;
+  padding: 0;
 }
-
 
 .table-cell-edit {
   width: 10%;
 }
 
-
 .table-btn-edit {
-    text-decoration: none;
-    font-weight: 550;
+  text-decoration: none;
+  font-weight: 550;
 }
 
-.table-btn-delete{
-    background-color: transparent;
-    border: none;
-    font-size: 20px;
-    color: red;
+.table-btn-delete {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: red;
 }
 
-.table-cell-class{
-    width: 5%;
+.table-cell-class {
+  width: 5%;
 }
 .table-cell-class p {
   width: 5%;
   margin: 0;
 }
 
-.table-cell-hazard{
-    width: 15%;
-    text-align: start;
-    padding-left: 2%;
+.table-cell-hazard {
+  width: 15%;
+  text-align: start;
+  padding-left: 2%;
 }
 
-.table-cell-hazard p{
-    font-family: sans-serif;
-    font-weight: bold;
-    padding-bottom: 0;
+.table-cell-hazard p {
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-bottom: 0;
 }
-
-
 
 .table-icon-class-icon {
   width: 80%;
-  padding: 5px 3px;
+  padding: 8px 3px;
   border-radius: 50%;
   background-color: blue;
   color: white;

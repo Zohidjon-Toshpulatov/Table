@@ -1,40 +1,45 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 .table-box {
-  margin: 70px auto;
   width: 50%;
   height: 420px;
+  margin: 70px auto;
   overflow-x: hidden;
   overflow-y: auto;
 }
-
-.table-health-hazards h2 {
-  width: 80%;
-  margin: 15px auto;
-  font-family: sans-serif;
+table{
+  width: 100%;
 }
-.table-row {
+
+tr {
   display: table;
   width: 100%;
   margin: 0 auto;
   font-family: sans-serif;
-
   background-color: transparent;
   padding: 12px 0;
   font-size: 13px;
   color: #555;
-  /* box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3)/ */
 }
-.table-row:nth-child(even) {
+
+tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+tr:hover{
+  background-color: lightblue;
 }
 
 .table-head {
   background-color: #273057 !important;
   font-weight: bold;
   color: #fff;
+  position: sticky;
+  top:0;
+  z-index: 2;
 }
 
 .table-cell-select,
@@ -45,13 +50,13 @@
 .table-cell-hazard {
   display: table-cell;
   padding: 4px 0;
-  /* border-right: 1px solid #d6d4d4; */
-  text-align: center;
+  text-align: left;
   vertical-align: middle;
 }
 
 .table-cell-select {
   width: 15%;
+  text-align: center;
 }
 .table-cell-description {
   text-align: left;
@@ -61,6 +66,7 @@
 .table-cell-name {
   width: 15% !important;
   font-weight: bold;
+  padding-left: 10px;
 }
 
 .table-cell-name span {
@@ -70,6 +76,7 @@
 
 .table-cell-edit {
   width: 10%;
+  padding-left: 10px;
 }
 
 .table-btn-edit {
@@ -86,6 +93,7 @@
 
 .table-cell-class {
   width: 5%;
+  text-align: center;
 }
 .table-cell-class p {
   width: 5%;
@@ -105,11 +113,15 @@
 }
 
 .table-icon-class-icon {
-  width: 25px;
-  height: 25px;
-  padding: 10px;
+  width: 30px;
+  height: 30px;
+  position: relative;
   border-radius: 50%;
   background-color: blue;
   color: white;
   display: block;
+}
+.fa-user-tie{
+  position: relative;
+  top: 5px;
 }

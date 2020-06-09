@@ -127,3 +127,7 @@
     top: 7px;
   }
   
+  .table-hazard-table-cell {
+    padding-right: 9px;
+    text-align: justify;
+  }

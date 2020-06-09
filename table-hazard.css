@@ -128,6 +128,6 @@
   }
   
   .table-hazard-table-cell {
-    padding-right: 9px;
+    padding-right: 9px!important;
     text-align: justify;
   }

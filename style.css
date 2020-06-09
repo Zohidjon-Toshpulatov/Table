@@ -36,11 +36,11 @@ tr:hover{
 .table-head {
   background-color: #273057 !important;
 }
+thead tr:first-child th { position: sticky; top: 0; }
+
 .table-head th {
   font-weight: bold;
-  position: sticky;
   color: #ffffff;
-  top: 0;
 }
 button {
   border: none;

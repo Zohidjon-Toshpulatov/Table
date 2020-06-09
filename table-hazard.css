@@ -1,0 +1,128 @@
+.table-box {
+    width: 50%;
+    height: 420px;
+    margin: 70px auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  table.table-hazard {
+    width: 100%;
+  }
+  
+  table.table-hazard tr {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-color: transparent;
+    padding: 12px 0;
+    font-size: 13px;
+    color: #555;
+  }
+  
+  table.table-hazard tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+  table.table-hazard tr:hover{
+    background-color: lightblue;
+  }
+  
+  table.table-hazard .table-head {
+    background-color: #273057 !important;
+  }
+  table.table-hazard thead tr:first-child th { position: sticky; top: 0; }
+  
+  table.table-hazard .table-head th {
+    font-weight: bold;
+    color: #ffffff;
+  }
+  button {
+    border: none;
+    outline:none;
+  }
+  
+  table.table-hazard  .table-cell-select,
+  table.table-hazard .table-cell-description,
+  table.table-hazard .table-cell-name,
+  table.table-hazard .table-cell-edit,
+  table.table-hazard .table-cell-class,
+  table.table-hazard.table-cell-hazard {
+    display: table-cell;
+    padding: 4px 0;
+    text-align: left;
+    vertical-align: middle;
+  }
+  
+  table.table-hazard  .table-cell-select {
+    width: 15%;
+    text-align: center;
+  }
+  table.table-hazard .table-cell-description {
+    text-align: left;
+    padding-left: 5%;
+    /* margin-left: 5%; */
+  }
+  table.table-hazard.table-cell-name {
+    width: 15% !important;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  
+  table.table-hazard .table-cell-name span {
+    font-size: 10px;
+    padding: 0;
+  }
+  
+  .table-cell-edit {
+    width: 10%;
+    padding-left: 10px;
+  }
+  
+  .table-btn-edit {
+    text-decoration: none;
+    font-weight: 550;
+  }
+  
+  .table-btn-delete {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: red;
+  }
+  
+  .table-cell-class {
+    width: 5%;
+    text-align: center;
+  }
+  .table-cell-class p {
+    width: 5%;
+    margin: 0;
+  }
+  
+  .table-cell-hazard {
+    width: 15%;
+    text-align: start;
+    padding-left: 2%;
+  }
+  
+  .table-cell-hazard p {
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-bottom: 0;
+  }
+  
+  .table-icon-class-icon {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    display: block;
+  }
+  .fa-user-tie{
+    position: relative;
+    top: 7px;
+  }
+  

@@ -146,3 +146,6 @@
   .last-table .table-cell-name {
     padding-left: 0%!important;
   }
+  .last-table .table-hazard-table-cell {
+    padding-left: 5%;
+  }

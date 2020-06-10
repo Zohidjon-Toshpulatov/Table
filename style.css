@@ -138,3 +138,6 @@ button {
   top: 7px;
 }
 
+.first-column {
+  padding-left: 15px!important;
+}

@@ -136,16 +136,9 @@
   .table-hazard th.table-cell-description {
     padding-left: 6%;
   }
-  
-  .table-hazard th.table-cell-name {
-    padding-left: 4px;
+  .last-table .table-hazard-table-cell {
+    padding-left: 5%!important;
   }
   .first-column {
     padding-left: 15px!important;
-  }
-  .last-table .table-cell-name {
-    padding-left: 0%!important;
-  }
-  .last-table .table-hazard-table-cell {
-    padding-left: 5%;
   }

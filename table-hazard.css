@@ -51,7 +51,7 @@
   table.table-hazard .table-cell-class,
   table.table-hazard.table-cell-hazard {
     display: table-cell;
-    padding: 4px 5px;
+    padding: 4px 0px;
     text-align: left;
     vertical-align: middle;
   }
@@ -132,4 +132,14 @@
   .table-hazard-table-cell {
     padding-right: 9px!important;
     text-align: justify;
+  }
+  .table-hazard th.table-cell-description {
+    padding-left: 6%;
+  }
+  
+  .table-hazard th.table-cell-name {
+    padding-left: 4px;
+  }
+  .first-column {
+    padding-left: 15px!important;
   }

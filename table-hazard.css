@@ -41,7 +41,9 @@
     border: none;
     outline:none;
   }
-  
+  .table-head .table-cell-description {
+    padding-left: 5%;
+  }
   table.table-hazard  .table-cell-select,
   table.table-hazard .table-cell-description,
   table.table-hazard .table-cell-name,
@@ -49,7 +51,7 @@
   table.table-hazard .table-cell-class,
   table.table-hazard.table-cell-hazard {
     display: table-cell;
-    padding: 4px 0;
+    padding: 4px 5px;
     text-align: left;
     vertical-align: middle;
   }

@@ -61,7 +61,7 @@ button {
 .table-cell-class,
 .table-cell-hazard {
   display: table-cell;
-  padding: 4px 0;
+  padding: 4px 5px;
   text-align: left;
   vertical-align: middle;
 }

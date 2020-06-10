@@ -43,7 +43,6 @@ thead tr:first-child th { position: sticky; top: 0; }
   color: #ffffff;
 }
 td {
-  padding-right: 2px!important;
   word-break:break-all;
 }
 td p {
@@ -138,6 +137,3 @@ button {
   top: 7px;
 }
 
-.first-column {
-  padding-left: 15px!important;
-}

@@ -42,6 +42,13 @@ thead tr:first-child th { position: sticky; top: 0; }
   font-weight: bold;
   color: #ffffff;
 }
+td {
+  padding-right: 2px!important;
+  word-break:break-all;
+}
+td p {
+  word-break:break-all;
+}
 button {
   border: none;
   outline:none;
